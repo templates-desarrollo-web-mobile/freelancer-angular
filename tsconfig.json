@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@widgets/*": ["./src/app/@widgets/*"]
+      "@widgets/*": ["src/app/@widgets/*"]
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
@@ -20,7 +20,8 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "esModuleInterop": true
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
