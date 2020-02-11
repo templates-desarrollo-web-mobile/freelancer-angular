@@ -1,27 +1,9 @@
-# FreelancerAngular
+# Freelancer Angular Bootstrap
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7b70d0dd-2b4d-42e3-aef9-f6f68dce0388/deploy-status)](https://app.netlify.com/sites/anartz-cv/deploys)
 
-## Development server
+Proyecto que está relacionado con los videos que podéis encontrar en la [siguiente lista de reproducción](https://www.youtube.com/playlist?list=PLaaTcPGicjqiKEuwe8SWClF4vXd63z3OI).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Autor:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* [Anartz Mugika Ledo](https://www.udemy.com/user/anartzmugika/)
