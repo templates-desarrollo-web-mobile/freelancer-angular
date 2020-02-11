@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ModalService } from '@widgets/modal/modal.service';
 import { IModal } from '@widgets/modal/modal.interface';
 
@@ -9,6 +9,7 @@ import { IModal } from '@widgets/modal/modal.interface';
 })
 export class ImageItemComponent implements OnInit {
 
+  @Input() info: IModal;
   constructor(private modal: ModalService) { }
 
   ngOnInit() {
