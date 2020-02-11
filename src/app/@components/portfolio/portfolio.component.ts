@@ -16,7 +16,8 @@ export class PortfolioComponent implements OnInit {
   open() {
     this.modal.open({
       title: 'Anartz',
-      description: 'probando'
+      description: 'probando',
+      image: '/assets/img/portfolio/cabin.png'
     });
   }
 
