@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalService } from '@widgets/modal/modal.service';
+import { IModal } from '@widgets/modal/modal.interface';
 
 @Component({
   selector: 'app-image-item',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImageItemComponent implements OnInit {
 
-  constructor() { }
+  constructor(private modal: ModalService) { }
 
   ngOnInit() {
+  }
+
+  open(content: IModal) {
+    this.modal.open(content);
   }
 
 }

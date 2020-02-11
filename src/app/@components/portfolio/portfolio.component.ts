@@ -14,7 +14,10 @@ export class PortfolioComponent implements OnInit {
   }
 
   open() {
-    this.modal.open();
+    this.modal.open({
+      title: 'Anartz',
+      description: 'probando'
+    });
   }
 
 }
