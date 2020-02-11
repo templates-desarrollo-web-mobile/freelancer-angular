@@ -18,9 +18,9 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="{{ content.image }}" alt="">
+                <img class="img-fluid rounded mb-5" src="{{ content.image }}" alt="{{ content.title }}">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">{{ content.description }}</p>
+                <p class="mb-5" >{{ content.description }}</p>
                 <button class="btn btn-primary" (click)="close()">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
