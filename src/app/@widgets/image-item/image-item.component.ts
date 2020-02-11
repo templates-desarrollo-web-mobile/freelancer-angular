@@ -15,8 +15,8 @@ export class ImageItemComponent implements OnInit {
   ngOnInit() {
   }
 
-  open(content: IModal) {
-    this.modal.open(content);
+  open() {
+    this.modal.open(this.info);
   }
 
 }

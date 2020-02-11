@@ -10,8 +10,6 @@ import { IModal } from '@widgets/modal/modal.interface';
 export class PortfolioComponent implements OnInit {
 
   items: Array<IModal> = [];
-  constructor(private modal: ModalService) { }
-
   ngOnInit() {
     this.items.push({title: 'Log Cabin', description: '', image: 'assets/img/portfolio/cabin.png'});
     this.items.push({title: 'Tasty Cake', description: '', image: 'assets/img/portfolio/cake.png'});
@@ -19,14 +17,6 @@ export class PortfolioComponent implements OnInit {
     this.items.push({title: 'Controller', description: '', image: 'assets/img/portfolio/game.png'});
     this.items.push({title: 'Locked Safe', description: '', image: 'assets/img/portfolio/safe.png'});
     this.items.push({title: 'Submarine', description: '', image: 'assets/img/portfolio/submarine.png'});
-  }
-
-  open() {
-    this.modal.open({
-      title: 'Anartz',
-      description: 'probando',
-      image: '/assets/img/portfolio/cabin.png'
-    });
   }
 
 }
