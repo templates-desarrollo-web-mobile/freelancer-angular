@@ -1,0 +1,5 @@
+.modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+    max-width: 800px;
+}
