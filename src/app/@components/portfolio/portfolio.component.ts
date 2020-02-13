@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IModal } from '@widgets/modal/modal.interface';
-
+const imageRepository = 'https://raw.githubusercontent.com/plantillas-anartz/freelancer-angular/master/src/assets/img/portfolio/';
 const description = `
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,
                       molestias magnam, recusandae quos quis inventore quisquam velit
@@ -15,32 +15,32 @@ export class PortfolioComponent implements OnInit {
   ngOnInit() {
     this.items.push ({
       title: 'Log cabin',
-      image: 'assets/img/portfolio/cabin.png',
+      image: `${imageRepository}cabin.jpeg`,
       description
     });
     this.items.push ({
       title: 'Tasty Cake',
-      image: 'assets/img/portfolio/cake.png',
+      image: `${imageRepository}cake.jpeg`,
       description
     });
     this.items.push ({
       title: 'Circus',
-      image: 'assets/img/portfolio/circus.png',
+      image: `${imageRepository}circus.jpeg`,
       description
     });
     this.items.push ({
       title: 'Game Game',
-      image: 'assets/img/portfolio/game.png',
+      image: `${imageRepository}game.jpeg`,
       description
     });
     this.items.push ({
       title: 'Log Safe',
-      image: 'assets/img/portfolio/safe.png',
+      image: `${imageRepository}safe.jpeg`,
       description
     });
     this.items.push ({
       title: 'Yellow submarine',
-      image: 'assets/img/portfolio/submarine.png',
+      image: `${imageRepository}submarine.jpeg`,
       description
     });
   }

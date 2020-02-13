@@ -9,6 +9,8 @@ import { PortfolioModule } from './@components/portfolio/portfolio.module';
 import { CopyrightModule } from './@components/copyright/copyright.module';
 import { ContactModule } from './@components/contact/contact.module';
 import { AboutModule } from './@components/about/about.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { AboutModule } from './@components/about/about.module';
     PortfolioModule,
     CopyrightModule,
     ContactModule,
-    AboutModule
+    AboutModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
