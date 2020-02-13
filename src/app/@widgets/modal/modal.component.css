@@ -1,6 +1,10 @@
 .close {
-    position: relative;
-    top: 10px;
-    right: 15px;
-    font-size: xx-large;
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #1abc9c;
+    opacity: 1;
 }
