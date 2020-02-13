@@ -1,6 +1,6 @@
 # FreelancerAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b52aa824-776f-4530-8542-9eb837e336b8/deploy-status)](https://app.netlify.com/sites/anartz-cv/deploys)
 
 ## Development server
 
